@@ -7,7 +7,7 @@ const Service = ({service}) => {
     const {id, name, img, description, price} = service;
     const handleNavigate = (id) => {
         navigate(`/services/${id}`);
-        alert(id);
+        // alert(id);
     }
     return (
         <div className='service'>
